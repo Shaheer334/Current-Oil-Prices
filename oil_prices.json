@@ -5,191 +5,191 @@
     "1": "WTI Crude",
     "2": "102.07",
     "3": "-1.72",
-    "4": "-1.66%(22\tHours Delay)",
-    "5": "(22\tHours Delay)"
+    "4": "-1.66%(1 day Delay)",
+    "5": "(1 day Delay)"
   },
   {
     "0": "",
     "1": "Brent Crude",
     "2": "106.65",
     "3": "-1.68",
-    "4": "-1.55%(21\tHours Delay)",
-    "5": "(21\tHours Delay)"
+    "4": "-1.55%(1 day Delay)",
+    "5": "(1 day Delay)"
   },
   {
     "0": "",
     "1": "Natural Gas",
     "2": "6.534",
     "3": "-0.423",
-    "4": "-6.08%(22\tHours Delay)",
-    "5": "(22\tHours Delay)"
+    "4": "-6.08%(1 day Delay)",
+    "5": "(1 day Delay)"
   },
   {
     "0": "",
     "1": "Heating Oil",
     "2": "3.939",
     "3": "+0.038",
-    "4": "+0.97%(22\tHours Delay)",
-    "5": "(22\tHours Delay)"
+    "4": "+0.97%(1 day Delay)",
+    "5": "(1 day Delay)"
   },
   {
     "0": "",
     "1": "Mars US",
     "2": "102.67",
     "3": "-0.62",
-    "4": "-0.6%(21\tHours Delay)",
-    "5": "(21\tHours Delay)"
+    "4": "-0.6%(1 day Delay)",
+    "5": "(1 day Delay)"
   },
   {
     "0": "",
     "1": "Opec Basket",
     "2": "108.81",
     "3": "+0.84",
-    "4": "+0.78%(2\tdays Delay)",
-    "5": "(2\tdays Delay)"
+    "4": "+0.78%(3\tdays Delay)",
+    "5": "(3\tdays Delay)"
   },
   {
     "0": "",
     "1": "Canadian Crude Index",
     "2": "88.30",
     "3": "-2.21",
-    "4": "-2.44%(1 day Delay)",
-    "5": "(1 day Delay)"
+    "4": "-2.44%(2\tdays Delay)",
+    "5": "(2\tdays Delay)"
   },
   {
     "0": "",
     "1": "DME Oman",
     "2": "104.79",
     "3": "-1.21",
-    "4": "-1.14%(17\tHours Delay)",
-    "5": "(17\tHours Delay)"
+    "4": "-1.14%(1 day Delay)",
+    "5": "(1 day Delay)"
   },
   {
     "0": "",
     "1": "Mexican Basket",
     "2": "101.68",
     "3": "+1.43",
-    "4": "+1.43%(2\tdays Delay)",
-    "5": "(2\tdays Delay)"
+    "4": "+1.43%(3\tdays Delay)",
+    "5": "(3\tdays Delay)"
   },
   {
     "0": "",
     "1": "Indian Basket",
     "2": "106.14",
     "3": "+0.63",
-    "4": "+0.60%(2\tdays Delay)",
-    "5": "(2\tdays Delay)"
+    "4": "+0.60%(3\tdays Delay)",
+    "5": "(3\tdays Delay)"
   },
   {
     "0": "",
     "1": "Western Canadian Select",
     "2": "89.69",
     "3": "+1.60",
-    "4": "+1.82%(1 day Delay)",
-    "5": "(1 day Delay)"
+    "4": "+1.82%(2\tdays Delay)",
+    "5": "(2\tdays Delay)"
   },
   {
     "0": "",
     "1": "Dubai",
     "2": "103.85",
     "3": "+0.73",
-    "4": "+0.71%(2\tdays Delay)",
-    "5": "(2\tdays Delay)"
+    "4": "+0.71%(3\tdays Delay)",
+    "5": "(3\tdays Delay)"
   },
   {
     "0": "",
     "1": "Brent Weighted Average",
     "2": "108.23",
     "3": "+0.84",
-    "4": "+0.78%(2\tdays Delay)",
-    "5": "(2\tdays Delay)"
+    "4": "+0.78%(3\tdays Delay)",
+    "5": "(3\tdays Delay)"
   },
   {
     "0": "",
     "1": "Louisiana Light",
     "2": "106.64",
     "3": "+2.93",
-    "4": "+2.83%(2\tdays Delay)",
-    "5": "(2\tdays Delay)"
+    "4": "+2.83%(3\tdays Delay)",
+    "5": "(3\tdays Delay)"
   },
   {
     "0": "",
     "1": "Coastal Grade A",
     "2": "91.50",
     "3": "-0.75",
-    "4": "-0.81%(1 day Delay)",
-    "5": "(1 day Delay)"
+    "4": "-0.81%(2\tdays Delay)",
+    "5": "(2\tdays Delay)"
   },
   {
     "0": "",
     "1": "Domestic Swt. @ Cushing",
     "2": "98.50",
     "3": "-0.75",
-    "4": "-0.76%(1 day Delay)",
-    "5": "(1 day Delay)"
+    "4": "-0.76%(2\tdays Delay)",
+    "5": "(2\tdays Delay)"
   },
   {
     "0": "",
     "1": "Giddings",
     "2": "92.25",
     "3": "-0.75",
-    "4": "-0.81%(1 day Delay)",
-    "5": "(1 day Delay)"
+    "4": "-0.81%(2\tdays Delay)",
+    "5": "(2\tdays Delay)"
   },
   {
     "0": "",
     "1": "ANS West Coast",
     "2": "110.60",
     "3": "-0.26",
-    "4": "-0.23%(3\tdays Delay)",
-    "5": "(3\tdays Delay)"
+    "4": "-0.23%(4\tdays Delay)",
+    "5": "(4\tdays Delay)"
   },
   {
     "0": "",
     "1": "Gulf Coast HSFO",
     "2": "91.80",
     "3": "+0.89",
-    "4": "+0.98%(2\tdays Delay)",
-    "5": "(2\tdays Delay)"
+    "4": "+0.98%(3\tdays Delay)",
+    "5": "(3\tdays Delay)"
   },
   {
     "0": "",
     "1": "Gasoline",
     "2": "3.305",
     "3": "-0.034",
-    "4": "-1.01%(22\tHours Delay)",
-    "5": "(22\tHours Delay)"
+    "4": "-1.01%(1 day Delay)",
+    "5": "(1 day Delay)"
   },
   {
     "0": "",
     "1": "Ethanol",
     "2": "2.160",
     "3": "+0.000",
-    "4": "+0.00%(21\tHours Delay)",
-    "5": "(21\tHours Delay)"
+    "4": "+0.00%(1 day Delay)",
+    "5": "(1 day Delay)"
   },
   {
     "0": "",
     "1": "Alberta Natural Gas",
     "2": "5.960",
     "3": "-0.270",
-    "4": "-4.33%(2\tdays Delay)",
-    "5": "(2\tdays Delay)"
+    "4": "-4.33%(3\tdays Delay)",
+    "5": "(3\tdays Delay)"
   },
   {
     "0": "",
     "1": "Dutch TTF Natural Gas",
     "2": "31.84",
     "3": "+1.80",
-    "4": "+5.98%(2\tdays Delay)",
-    "5": "(2\tdays Delay)"
+    "4": "+5.98%(3\tdays Delay)",
+    "5": "(3\tdays Delay)"
   },
   {
     "0": "",
     "1": "LNG Japan/Korea Marker",
     "2": "25.29",
     "3": "-7.64",
-    "4": "-23.20%(2\tdays Delay)",
-    "5": "(2\tdays Delay)"
+    "4": "-23.20%(3\tdays Delay)",
+    "5": "(3\tdays Delay)"
   }
 ]

@@ -68,3 +68,24 @@ export const scrappingOilPrices = async (req, res) => {
         res.status(500).send(err.message)
     }
 }
+
+export const veiw_all_oil_prices = async (req, res) => {
+    try {
+        const prices = await current_oil_prices.find({})
+        res.status(200).json({
+            code: res.statusCode,
+            msg: 'current oil prices',
+            data: prices,
+            success: true
+        })
+    } catch (err) {
+        console.log(err)
+        res.status(500).json({
+            code: res.statusCode,
+            msg: 'something wrong while getting OIL Prices',
+            data: {},
+            success: false
+        })
+    }
+
+} 
