@@ -4,7 +4,7 @@ import dotenv from 'dotenv'
 import oil_prices_router from './api/oilprices_app/routes/oilPricesRoutes.js'
 import morgan from 'morgan'
 import databaseConnection from './api/db/db.js'
-import Server from 'socket.io'
+import { Server } from 'socket.io'
 dotenv.config();
 
 const app = express();
