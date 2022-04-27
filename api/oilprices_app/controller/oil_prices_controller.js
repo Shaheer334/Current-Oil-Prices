@@ -56,7 +56,7 @@ export const scrappingOilPrices = async (req, res) => {
             else {
                 return res.send({
                     code: res.sendStatus,
-                    msg: 'error at reading oil prices data',
+                    msg: `error at reading oil prices data: ${err}`,
                     data: {}
                 })
                 // console.log("error at reading oil prices data: ", err)
