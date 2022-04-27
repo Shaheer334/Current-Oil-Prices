@@ -4,6 +4,7 @@ import dotenv from 'dotenv'
 import oil_prices_router from './api/oilprices_app/routes/oilPricesRoutes.js'
 import morgan from 'morgan'
 import databaseConnection from './api/db/db.js'
+import Server from 'socket.io'
 dotenv.config();
 
 const app = express();
@@ -21,11 +22,12 @@ const api = process.env.API;
 
 app.get('/', (req, res) => res.send('app is running'));
 
-
-// database connection will go here
-
 // global error handler will ho here
 
 // port connection
-databaseConnection()
-app.listen(port, () => console.log(`server is running at http://${host}:${port}`))
+const server = app.listen(port, () => console.log(`server is running at http://${host}:${port}`))
+
+const io = new Server(server)
+
+// database connection will go here
+databaseConnection(io)
