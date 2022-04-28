@@ -9,7 +9,11 @@ const oilPricesSchema = new Schema({
     last_oil_price: {
         type: String,
         trim: true
-    }
+    }, 
+    change_oil_price: {
+        type: String,
+        trim: true
+    },
 }, {
     toJSON: {
         virtuals: true,

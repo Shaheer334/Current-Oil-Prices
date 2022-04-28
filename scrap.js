@@ -12,39 +12,17 @@ async function scrappingOilPrices() {
         let data1 = [];
         let data2 = [];
         let theads, cols, col;
-        let rows = $('[data-id="1"] tbody tr');
+        let rows = $('[data-id="34"] tbody tr');
 
         rows.each((index, el) => {
-            theads = $(el).find('th').text().trim().replace(/[\n\r]+/g, '');
+            // theads = $(el).find('th').text().trim().replace(/[\n\r]+/g, '');
             data2 = [];
             cols = $(el).find('td').each((colidx, colel) => {
                 col = $(colel).text().replace(/[\n\r]+/g, '');
                 data2.push(col)
             })
-            data1.push({ theads, ...data2 })
+            data1.push({ ...data2 })
         })
-
-        // console.log(listItems.length)
-        // for (let i = 0; i < listItems.length; i++) {
-        //     if (i === 0) {
-        //         oil_prices = listItems[i]
-        //         console.log(oil_prices)
-        //     }
-        //     return
-        // }
-        // console.log(oil_prices)
-
-        // // const oil_prices = [];
-        // listItems.each((idx, el) => {
-        //     const oil_price = { featrures_and_indexes: "", last: "", changes: "", change_percent: "" };
-        //     oil_price.featrures_and_indexes = $(el).children("span").text();
-        //     oil_price.last = $(el).addClass('last_price').text();
-        //     oil_price.changes = $(el).addClass('change_up flat_change_cell').text();
-        //     oil_price.change_percent = $(el).addClass('change_up_percent percent_change_cell').text()
-
-        //     oil_prices.push(oil_price)
-        // })
-        // console.dir(oil_prices)
 
         fs.writeFile("oil_prices.json", JSON.stringify(data1, null, 2), (err) => {
             if (err) {
@@ -62,12 +40,14 @@ fs.readFile("oil_prices.json", 'utf-8', (err, data) => {
     if (data) {
         const data11 = JSON.parse(data)
         data11.map((val) => {
-            console.log(val["1"], val["2"])
+            console.log(val["1"], val["2"], val["3"])
         })
+        // console.log("oil price data: ", data)
     }
     else {
         console.log("error at reading oil prices data: ", err)
     }
+    // console.log("data here: ", data)
 
 
 
