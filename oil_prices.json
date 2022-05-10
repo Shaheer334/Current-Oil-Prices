@@ -1,512 +1,598 @@
 [
-  {},
+  {
+    "theads": ""
+  },
   {
     "0": "",
-    "1": "UAE"
+    "1": "UAE",
+    "theads": "UAE"
   },
   {
     "0": "",
     "1": "Das",
-    "2": "104.55",
-    "3": "+1.68",
-    "4": "+1.63%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
+    "2": "110.26",
+    "3": "+0.84",
+    "4": "+0.77%(6\tHours Delay)",
+    "5": "(6\tHours Delay)",
+    "theads": ""
   },
   {
     "0": "",
     "1": "Umm Lulu",
-    "2": "105.35",
-    "3": "+1.68",
-    "4": "+1.62%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
+    "2": "111.06",
+    "3": "+0.84",
+    "4": "+0.76%(6\tHours Delay)",
+    "5": "(6\tHours Delay)",
+    "theads": ""
   },
   {
     "0": "",
     "1": "Upper Zakum",
-    "2": "103.12",
-    "3": "+2.45",
-    "4": "+2.43%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
-  },
-  {
-    "0": ""
+    "2": "108.32",
+    "3": "+1.05",
+    "4": "+0.98%(6\tHours Delay)",
+    "5": "(6\tHours Delay)",
+    "theads": ""
   },
   {
     "0": "",
-    "1": "Qatar"
+    "theads": ""
+  },
+  {
+    "0": "",
+    "1": "Qatar",
+    "theads": "Qatar"
   },
   {
     "0": "",
     "1": "Marine",
-    "2": "99.50",
-    "3": "-0.12",
-    "4": "-0.12%(1 day Delay)",
-    "5": "(1 day Delay)"
+    "2": "107.68",
+    "3": "+1.35",
+    "4": "+1.27%(3\tdays Delay)",
+    "5": "(3\tdays Delay)",
+    "theads": ""
   },
   {
     "0": "",
     "1": "Qatar Land - Qatar",
-    "2": "110.13",
-    "3": "+2.74",
-    "4": "+2.55%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
+    "2": "114.05",
+    "3": "+1.06",
+    "4": "+0.94%(6\tHours Delay)",
+    "5": "(6\tHours Delay)",
+    "theads": ""
   },
   {
     "0": "",
     "1": "Al Shaheen - Qatar",
-    "2": "103.27",
-    "3": "+2.71",
-    "4": "+2.70%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
-  },
-  {
-    "0": ""
+    "2": "108.62",
+    "3": "+1.05",
+    "4": "+0.98%(6\tHours Delay)",
+    "5": "(6\tHours Delay)",
+    "theads": ""
   },
   {
     "0": "",
-    "1": "Iraq"
+    "theads": ""
+  },
+  {
+    "0": "",
+    "1": "Iraq",
+    "theads": "Iraq"
   },
   {
     "0": "",
     "1": "Basrah Heavy",
-    "2": "100.90",
-    "3": "+2.74",
-    "4": "+2.79%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
-  },
-  {
-    "0": ""
+    "2": "99.87",
+    "3": "-3.89",
+    "4": "-3.75%(6\tHours Delay)",
+    "5": "(6\tHours Delay)",
+    "theads": ""
   },
   {
     "0": "",
-    "1": "Saudi Arabia"
+    "theads": ""
+  },
+  {
+    "0": "",
+    "1": "Saudi Arabia",
+    "theads": "Saudi Arabia"
   },
   {
     "0": "",
     "1": "Arab Extra Light",
-    "2": "111.93",
-    "3": "+2.78",
-    "4": "+2.55%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
+    "2": "111.42",
+    "3": "-3.87",
+    "4": "-3.36%(6\tHours Delay)",
+    "5": "(6\tHours Delay)",
+    "theads": ""
   },
   {
     "0": "",
     "1": "Arab Heavy",
-    "2": "110.28",
-    "3": "+2.78",
-    "4": "+2.59%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
+    "2": "109.77",
+    "3": "-3.87",
+    "4": "-3.41%(6\tHours Delay)",
+    "5": "(6\tHours Delay)",
+    "theads": ""
   },
   {
     "0": "",
     "1": "Arab Medium",
-    "2": "111.63",
-    "3": "+2.78",
-    "4": "+2.55%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
-  },
-  {
-    "0": ""
+    "2": "111.12",
+    "3": "-3.87",
+    "4": "-3.37%(6\tHours Delay)",
+    "5": "(6\tHours Delay)",
+    "theads": ""
   },
   {
     "0": "",
-    "1": "Nigeria"
+    "theads": ""
+  },
+  {
+    "0": "",
+    "1": "Nigeria",
+    "theads": "Nigeria"
   },
   {
     "0": "",
     "1": "Brass River",
-    "2": "108.09",
-    "3": "+2.45",
-    "4": "+2.32%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
+    "2": "115.88",
+    "3": "+1.05",
+    "4": "+0.91%(6\tHours Delay)",
+    "5": "(6\tHours Delay)",
+    "theads": ""
   },
   {
     "0": "",
     "1": "Qua Iboe",
-    "2": "108.09",
-    "3": "+2.45",
-    "4": "+2.32%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
-  },
-  {
-    "0": ""
+    "2": "115.88",
+    "3": "+1.05",
+    "4": "+0.91%(6\tHours Delay)",
+    "5": "(6\tHours Delay)",
+    "theads": ""
   },
   {
     "0": "",
-    "1": "Angola"
+    "theads": ""
+  },
+  {
+    "0": "",
+    "1": "Angola",
+    "theads": "Angola"
   },
   {
     "0": "",
     "1": "Cabinda",
-    "2": "104.64",
-    "3": "+2.45",
-    "4": "+2.40%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
+    "2": "113.58",
+    "3": "+1.20",
+    "4": "+1.07%(6\tHours Delay)",
+    "5": "(6\tHours Delay)",
+    "theads": ""
   },
   {
     "0": "",
     "1": "Nemba",
-    "2": "103.79",
-    "3": "+2.45",
-    "4": "+2.42%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
+    "2": "112.73",
+    "3": "+1.20",
+    "4": "+1.08%(6\tHours Delay)",
+    "5": "(6\tHours Delay)",
+    "theads": ""
   },
   {
     "0": "",
     "1": "Dalia",
-    "2": "102.79",
-    "3": "+2.45",
-    "4": "+2.44%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
-  },
-  {
-    "0": ""
+    "2": "111.58",
+    "3": "+1.75",
+    "4": "+1.59%(6\tHours Delay)",
+    "5": "(6\tHours Delay)",
+    "theads": ""
   },
   {
     "0": "",
-    "1": "Australia"
+    "theads": ""
+  },
+  {
+    "0": "",
+    "1": "Australia",
+    "theads": "Australia"
   },
   {
     "0": "",
     "1": "Cossack",
-    "2": "105.44",
-    "3": "+2.45",
-    "4": "+2.38%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
-  },
-  {
-    "0": ""
-  },
-  {
-    "0": "",
-    "1": "Mexico"
+    "2": "113.88",
+    "3": "+1.05",
+    "4": "+0.93%(6\tHours Delay)",
+    "5": "(6\tHours Delay)",
+    "theads": ""
   },
   {
     "0": "",
-    "1": "> Deliveries to U.S. Gulf Coast"
+    "theads": ""
+  },
+  {
+    "0": "",
+    "1": "Mexico",
+    "theads": "Mexico"
+  },
+  {
+    "0": "",
+    "1": "> Deliveries to U.S. Gulf Coast",
+    "theads": "> Deliveries to U.S. Gulf Coast"
   },
   {
     "0": "",
     "1": "Maya",
-    "2": "99.43",
-    "3": "+2.16",
-    "4": "+2.22%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
+    "2": "105.15",
+    "3": "-0.10",
+    "4": "-0.10%(5\tHours Delay)",
+    "5": "(5\tHours Delay)",
+    "theads": ""
   },
   {
     "0": "",
     "1": "Isthmus",
-    "2": "103.91",
-    "3": "+2.99",
-    "4": "+2.96%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
+    "2": "109.86",
+    "3": "+0.48",
+    "4": "+0.44%(5\tHours Delay)",
+    "5": "(5\tHours Delay)",
+    "theads": ""
   },
   {
     "0": "",
     "1": "Olmeca",
-    "2": "106.08",
-    "3": "+2.90",
-    "4": "+2.81%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
+    "2": "112.09",
+    "3": "+0.53",
+    "4": "+0.47%(5\tHours Delay)",
+    "5": "(5\tHours Delay)",
+    "theads": ""
   },
   {
     "0": "",
-    "1": "> Deliveries to U.S. West Coast"
-  },
-  {
-    "0": "",
-    "1": "Maya",
-    "2": "99.43",
-    "3": "+2.16",
-    "4": "+2.22%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
-  },
-  {
-    "0": "",
-    "1": "Isthmus",
-    "2": "103.91",
-    "3": "+2.99",
-    "4": "+2.96%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
-  },
-  {
-    "0": "",
-    "1": "> Deliveries to the Far East"
+    "1": "> Deliveries to U.S. West Coast",
+    "theads": "> Deliveries to U.S. West Coast"
   },
   {
     "0": "",
     "1": "Maya",
-    "2": "96.56",
-    "3": "-2.95",
-    "4": "-2.97%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
+    "2": "105.15",
+    "3": "-0.10",
+    "4": "-0.10%(5\tHours Delay)",
+    "5": "(5\tHours Delay)",
+    "theads": ""
   },
   {
     "0": "",
     "1": "Isthmus",
-    "2": "101.21",
-    "3": "-2.95",
-    "4": "-2.83%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
-  },
-  {
-    "0": ""
-  },
-  {
-    "0": "",
-    "1": "Iran"
+    "2": "109.86",
+    "3": "+0.48",
+    "4": "+0.44%(5\tHours Delay)",
+    "5": "(5\tHours Delay)",
+    "theads": ""
   },
   {
     "0": "",
-    "1": "> Deliveries to North West Europe"
+    "1": "> Deliveries to the Far East",
+    "theads": "> Deliveries to the Far East"
+  },
+  {
+    "0": "",
+    "1": "Maya",
+    "2": "102.10",
+    "3": "+0.75",
+    "4": "+0.74%(2\tdays Delay)",
+    "5": "(2\tdays Delay)",
+    "theads": ""
+  },
+  {
+    "0": "",
+    "1": "Isthmus",
+    "2": "106.75",
+    "3": "+0.75",
+    "4": "+0.71%(2\tdays Delay)",
+    "5": "(2\tdays Delay)",
+    "theads": ""
+  },
+  {
+    "0": "",
+    "theads": ""
+  },
+  {
+    "0": "",
+    "1": "Iran",
+    "theads": "Iran"
+  },
+  {
+    "0": "",
+    "1": "> Deliveries to North West Europe",
+    "theads": "> Deliveries to North West Europe"
   },
   {
     "0": "",
     "1": "Iran Light",
-    "2": "101.63",
-    "3": "+2.22",
-    "4": "+2.23%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
+    "2": "109.00",
+    "3": "+2.41",
+    "4": "+2.26%(4\tdays Delay)",
+    "5": "(4\tdays Delay)",
+    "theads": ""
   },
   {
     "0": "",
     "1": "Iran Heavy",
-    "2": "99.73",
-    "3": "+2.22",
-    "4": "+2.28%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
+    "2": "107.10",
+    "3": "+2.41",
+    "4": "+2.30%(4\tdays Delay)",
+    "5": "(4\tdays Delay)",
+    "theads": ""
   },
   {
     "0": "",
     "1": "Forozan Blend",
-    "2": "99.98",
-    "3": "+2.22",
-    "4": "+2.27%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
+    "2": "107.35",
+    "3": "+2.41",
+    "4": "+2.30%(4\tdays Delay)",
+    "5": "(4\tdays Delay)",
+    "theads": ""
   },
   {
     "0": "",
-    "1": "> Deliveries to Mediterranean"
+    "1": "> Deliveries to Mediterranean",
+    "theads": "> Deliveries to Mediterranean"
   },
   {
     "0": "",
     "1": "Iran Light",
-    "2": "100.98",
-    "3": "+2.22",
-    "4": "+2.25%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
+    "2": "108.35",
+    "3": "+2.41",
+    "4": "+2.27%(4\tdays Delay)",
+    "5": "(4\tdays Delay)",
+    "theads": ""
   },
   {
     "0": "",
     "1": "Iran Heavy",
-    "2": "98.83",
-    "3": "+2.22",
-    "4": "+2.30%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
+    "2": "106.20",
+    "3": "+2.41",
+    "4": "+2.32%(4\tdays Delay)",
+    "5": "(4\tdays Delay)",
+    "theads": ""
   },
   {
     "0": "",
     "1": "Forozan Blend",
-    "2": "99.08",
-    "3": "+2.22",
-    "4": "+2.29%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
+    "2": "106.45",
+    "3": "+2.41",
+    "4": "+2.32%(4\tdays Delay)",
+    "5": "(4\tdays Delay)",
+    "theads": ""
   },
   {
     "0": "",
     "1": "Soroosh",
-    "2": "95.83",
-    "3": "+2.22",
-    "4": "+2.37%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
+    "2": "103.20",
+    "3": "+2.41",
+    "4": "+2.39%(4\tdays Delay)",
+    "5": "(4\tdays Delay)",
+    "theads": ""
   },
   {
     "0": "",
-    "1": "> Deliveries to Sidi Kerir"
-  },
-  {
-    "0": "",
-    "1": "Iran Light",
-    "2": "102.88",
-    "3": "+2.22",
-    "4": "+2.21%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
-  },
-  {
-    "0": "",
-    "1": "Iran Heavy",
-    "2": "100.73",
-    "3": "+2.22",
-    "4": "+2.25%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
-  },
-  {
-    "0": "",
-    "1": "Forozan Blend",
-    "2": "100.98",
-    "3": "+2.22",
-    "4": "+2.25%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
-  },
-  {
-    "0": "",
-    "1": "> Deliveries to South Africa"
+    "1": "> Deliveries to Sidi Kerir",
+    "theads": "> Deliveries to Sidi Kerir"
   },
   {
     "0": "",
     "1": "Iran Light",
-    "2": "101.63",
-    "3": "+2.22",
-    "4": "+2.23%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
+    "2": "110.25",
+    "3": "+2.41",
+    "4": "+2.23%(4\tdays Delay)",
+    "5": "(4\tdays Delay)",
+    "theads": ""
   },
   {
     "0": "",
     "1": "Iran Heavy",
-    "2": "99.73",
-    "3": "+2.22",
-    "4": "+2.28%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
+    "2": "108.10",
+    "3": "+2.41",
+    "4": "+2.28%(4\tdays Delay)",
+    "5": "(4\tdays Delay)",
+    "theads": ""
   },
   {
     "0": "",
     "1": "Forozan Blend",
-    "2": "99.98",
-    "3": "+2.22",
-    "4": "+2.27%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
-  },
-  {
-    "0": ""
+    "2": "108.35",
+    "3": "+2.41",
+    "4": "+2.27%(4\tdays Delay)",
+    "5": "(4\tdays Delay)",
+    "theads": ""
   },
   {
     "0": "",
-    "1": "CHINA"
+    "1": "> Deliveries to South Africa",
+    "theads": "> Deliveries to South Africa"
+  },
+  {
+    "0": "",
+    "1": "Iran Light",
+    "2": "109.00",
+    "3": "+2.41",
+    "4": "+2.26%(4\tdays Delay)",
+    "5": "(4\tdays Delay)",
+    "theads": ""
+  },
+  {
+    "0": "",
+    "1": "Iran Heavy",
+    "2": "107.10",
+    "3": "+2.41",
+    "4": "+2.30%(4\tdays Delay)",
+    "5": "(4\tdays Delay)",
+    "theads": ""
+  },
+  {
+    "0": "",
+    "1": "Forozan Blend",
+    "2": "107.35",
+    "3": "+2.41",
+    "4": "+2.30%(4\tdays Delay)",
+    "5": "(4\tdays Delay)",
+    "theads": ""
+  },
+  {
+    "0": "",
+    "theads": ""
+  },
+  {
+    "0": "",
+    "1": "CHINA",
+    "theads": "CHINA"
   },
   {
     "0": "",
     "1": "Daqing",
-    "2": "98.90",
-    "3": "+0.22",
-    "4": "+0.22%(1 day Delay)",
-    "5": "(1 day Delay)"
+    "2": "109.40",
+    "3": "+1.47",
+    "4": "+1.36%(3\tdays Delay)",
+    "5": "(3\tdays Delay)",
+    "theads": ""
   },
   {
     "0": "",
     "1": "Shengli",
-    "2": "104.17",
-    "3": "+0.25",
-    "4": "+0.24%(1 day Delay)",
-    "5": "(1 day Delay)"
+    "2": "114.20",
+    "3": "+1.39",
+    "4": "+1.23%(3\tdays Delay)",
+    "5": "(3\tdays Delay)",
+    "theads": ""
   },
   {
     "0": "",
     "1": "South China Sea",
-    "2": "99.16",
-    "3": "+0.26",
-    "4": "+0.26%(1 day Delay)",
-    "5": "(1 day Delay)"
-  },
-  {
-    "0": ""
+    "2": "109.73",
+    "3": "+1.51",
+    "4": "+1.40%(3\tdays Delay)",
+    "5": "(3\tdays Delay)",
+    "theads": ""
   },
   {
     "0": "",
-    "1": "INDONESIA"
+    "theads": ""
+  },
+  {
+    "0": "",
+    "1": "INDONESIA",
+    "theads": "INDONESIA"
   },
   {
     "0": "",
     "1": "Cinta",
-    "2": "83.83",
-    "3": "+0.85",
-    "4": "+1.02%(1 day Delay)",
-    "5": "(1 day Delay)"
+    "2": "91.00",
+    "3": "+1.86",
+    "4": "+2.09%(3\tdays Delay)",
+    "5": "(3\tdays Delay)",
+    "theads": ""
   },
   {
     "0": "",
     "1": "Duri",
-    "2": "107.42",
-    "3": "+0.26",
-    "4": "+0.24%(1 day Delay)",
-    "5": "(1 day Delay)"
+    "2": "117.50",
+    "3": "+1.44",
+    "4": "+1.24%(3\tdays Delay)",
+    "5": "(3\tdays Delay)",
+    "theads": ""
   },
   {
     "0": "",
     "1": "Minas",
-    "2": "94.09",
-    "3": "+0.25",
-    "4": "+0.27%(1 day Delay)",
-    "5": "(1 day Delay)"
-  },
-  {
-    "0": ""
+    "2": "102.38",
+    "3": "+1.66",
+    "4": "+1.65%(3\tdays Delay)",
+    "5": "(3\tdays Delay)",
+    "theads": ""
   },
   {
     "0": "",
-    "1": "RUSSIA"
+    "theads": ""
+  },
+  {
+    "0": "",
+    "1": "RUSSIA",
+    "theads": "RUSSIA"
   },
   {
     "0": "",
     "1": "ESPO",
-    "2": "73.78",
-    "3": "-0.08",
-    "4": "-0.11%(1 day Delay)",
-    "5": "(1 day Delay)"
+    "2": "79.92",
+    "3": "+0.36",
+    "4": "+0.45%(3\tdays Delay)",
+    "5": "(3\tdays Delay)",
+    "theads": ""
   },
   {
     "0": "",
     "1": "Sokol",
-    "2": "97.27",
-    "3": "+2.71",
-    "4": "+2.87%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
-  },
-  {
-    "0": ""
+    "2": "100.70",
+    "3": "+0.89",
+    "4": "+0.89%(6\tHours Delay)",
+    "5": "(6\tHours Delay)",
+    "theads": ""
   },
   {
     "0": "",
-    "1": "Malaysia"
+    "theads": ""
+  },
+  {
+    "0": "",
+    "1": "Malaysia",
+    "theads": "Malaysia"
   },
   {
     "0": "",
     "1": "Tapis (Malaysia)",
-    "2": "106.51",
-    "3": "+0.31",
-    "4": "+0.29%(1 day Delay)",
-    "5": "(1 day Delay)"
-  },
-  {
-    "0": ""
+    "2": "117.16",
+    "3": "+1.31",
+    "4": "+1.13%(3\tdays Delay)",
+    "5": "(3\tdays Delay)",
+    "theads": ""
   },
   {
     "0": "",
-    "1": "Azerbaijan"
+    "theads": ""
+  },
+  {
+    "0": "",
+    "1": "Azerbaijan",
+    "theads": "Azerbaijan"
   },
   {
     "0": "",
     "1": "Azeri Light",
-    "2": "114.64",
-    "3": "+2.45",
-    "4": "+2.18%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
-  },
-  {
-    "0": ""
+    "2": "119.18",
+    "3": "+1.14",
+    "4": "+0.97%(6\tHours Delay)",
+    "5": "(6\tHours Delay)",
+    "theads": ""
   },
   {
     "0": "",
-    "1": "Brazil"
+    "theads": ""
+  },
+  {
+    "0": "",
+    "1": "Brazil",
+    "theads": "Brazil"
   },
   {
     "0": "",
     "1": "Lula",
-    "2": "109.71",
-    "3": "+2.41",
-    "4": "+2.25%(18\tHours Delay)",
-    "5": "(18\tHours Delay)"
+    "2": "114.26",
+    "3": "+0.97",
+    "4": "+0.86%(6\tHours Delay)",
+    "5": "(6\tHours Delay)",
+    "theads": ""
   },
   {
-    "0": ""
+    "0": "",
+    "theads": ""
   }
 ]
