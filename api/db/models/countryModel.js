@@ -22,4 +22,6 @@ const country_name_model = new Schema({
 })
 
 
-export const country_name = mongoose.model('country', country_name_model)
+const countries_name = mongoose.model('country', country_name_model)
+
+export default countries_name

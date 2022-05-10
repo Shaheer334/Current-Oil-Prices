@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.country_name = void 0;
+exports["default"] = void 0;
 
 var _mongoose = _interopRequireDefault(require("mongoose"));
 
@@ -29,6 +29,7 @@ var country_name_model = new Schema({
   timestamps: true
 });
 
-var country_name = _mongoose["default"].model('country', country_name_model);
+var countries_name = _mongoose["default"].model('country', country_name_model);
 
-exports.country_name = country_name;
+var _default = countries_name;
+exports["default"] = _default;

@@ -1,7 +1,7 @@
 import axios from 'axios'
 import * as cheerio from 'cheerio'
 import fs from 'fs'
-
+import countries_name from './api/db/models/countryModel.js'
 const url = "https://oilprice.com/oil-price-charts/"
 
 async function scrappingOilPrices() {
@@ -48,47 +48,19 @@ fs.readFile("oil_prices.json", 'utf-8', (err, data) => {
             }
         })
         // data11
+        let countries
         datam.map((val) => {
-            console.log(val.theads)
+            console.log("data before", val[1])
+             countries = new countries_name({
+                country_name: val.theads
+            })
+            countries.save()
+            console.log("countries saved", countries)
         })
-
-        // data11.map((val) => {
-        //     console.log(val["0"], val["1"], val["2"])
-        // })
-        // console.log("oil price data: ", data)
-        // console.log("oil price data: ", datam[1])
     }
     else {
         console.log("error at reading oil prices data: ", err)
     }
-
-    // console.log("data here: ", data)
-
-    // const names = [];
-    // console.log(data11.length)
-
-    // for (let i = 0; i < data11.length; i++) {
-
-    //     if (!data11[i].hasOwnProperty("2")) {
-    //         continue;
-    //     }
-
-    //     names.push(data11[i]["2"]);
-    // }
-
-    // data11.map((val) => {
-    //     console.log("value goes here: ", val)
-    //     // for (let i = 0; i <= index; i++)
-    //     // {
-    //     // }
-
-    //     // for (var i = 0; i < Object.keys.length; i++) {
-    //     //     map.set(Object.keys[i], Object.values[i]);
-    //     // } 
-    // })
-    // console.log("parsed data : ", data11)
-
-    // Loop to insert key & value in this object one by one
 })
 
 scrappingOilPrices()

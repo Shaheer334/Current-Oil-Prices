@@ -8,6 +8,8 @@ var cheerio = _interopRequireWildcard(require("cheerio"));
 
 var _fs = _interopRequireDefault(require("fs"));
 
+var _countryModel = _interopRequireDefault(require("./api/db/models/countryModel.js"));
+
 function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
@@ -89,36 +91,18 @@ _fs["default"].readFile("oil_prices.json", 'utf-8', function (err, data) {
       }
     }); // data11
 
+    var countries;
     datam.map(function (val) {
-      console.log(val.theads);
-    }); // data11.map((val) => {
-    //     console.log(val["0"], val["1"], val["2"])
-    // })
-    // console.log("oil price data: ", data)
-    // console.log("oil price data: ", datam[1])
+      console.log("data before", val[1]);
+      countries = new _countryModel["default"]({
+        country_name: val.theads
+      });
+      countries.save();
+      console.log("countries saved", countries);
+    });
   } else {
     console.log("error at reading oil prices data: ", err);
-  } // console.log("data here: ", data)
-  // const names = [];
-  // console.log(data11.length)
-  // for (let i = 0; i < data11.length; i++) {
-  //     if (!data11[i].hasOwnProperty("2")) {
-  //         continue;
-  //     }
-  //     names.push(data11[i]["2"]);
-  // }
-  // data11.map((val) => {
-  //     console.log("value goes here: ", val)
-  //     // for (let i = 0; i <= index; i++)
-  //     // {
-  //     // }
-  //     // for (var i = 0; i < Object.keys.length; i++) {
-  //     //     map.set(Object.keys[i], Object.values[i]);
-  //     // } 
-  // })
-  // console.log("parsed data : ", data11)
-  // Loop to insert key & value in this object one by one
-
+  }
 });
 
 scrappingOilPrices();
