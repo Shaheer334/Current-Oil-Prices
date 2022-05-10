@@ -77,7 +77,8 @@ function scrappingOilPrices() {
       }
     }
   }, null, null, [[0, 13]]);
-}
+} // Reading files for countries name and storing data into dummy database
+
 
 _fs["default"].readFile("oil_prices.json", 'utf-8', function (err, data) {
   if (data) {

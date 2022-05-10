@@ -35,6 +35,7 @@ async function scrappingOilPrices() {
     }
 }
 
+// Reading files for countries name and storing data into dummy database
 fs.readFile("oil_prices.json", 'utf-8', (err, data) => {
     if (data) {
         const data11 = JSON.parse(data)
