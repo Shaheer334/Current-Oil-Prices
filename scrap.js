@@ -51,8 +51,36 @@ fs.readFile("oil_prices.json", 'utf-8', (err, data) => {
         // data11
         let countries
         datam.map((val) => {
-            console.log("data before", val[1])
+            // console.log("data before", val[1])
              countries = new countries_name({
+                country_name: val.theads
+            })
+            countries.save()
+            console.log("countries saved", countries)
+        })
+    }
+    else {
+        console.log("error at reading oil prices data: ", err)
+    }
+})
+
+fs.readFile("oil_prices.json", 'utf-8', (err, data) => {
+    if (data) {
+        const data1 = JSON.parse(data)
+        let datam = []
+        data1.filter((val, index) => {
+            if (val.theads === "") {
+                return
+            }
+            else {
+                datam.push(val)
+            }
+        })
+        // data11
+        let countries
+        datam.map((val) => {
+            console.log("data before", val[1])
+            countries = new countries_name({
                 country_name: val.theads
             })
             countries.save()

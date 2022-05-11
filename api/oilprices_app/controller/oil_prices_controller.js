@@ -1,31 +1,31 @@
-import current_oil_prices from '../../db/models/oilPricesModel.js'
+import countries_name from '../../db/models/countryModel.js'
 import axios from 'axios'
 import * as cheerio from 'cheerio'
 import fs from 'fs'
 
 export const scrappingOilPrices = async (req, res) => {
     try {
-        let tabledata = await current_oil_prices.countDocuments();
-        if (tabledata !== 0) {
-            await current_oil_prices.deleteMany();
-            console.log(tabledata, 'documents deleted successfully')
-        }
+        // let tabledata = await countries_name.countDocuments();
+        // if (tabledata !== 0) {
+        //     await countries_name.deleteMany();
+        //     console.log(tabledata, 'documents deleted successfully')
+        // }
         const url = "https://oilprice.com/oil-price-charts/"
         const { data } = await axios.get(url)
         const $ = cheerio.load(data)
         let data1 = []
         let data2 = []
-        let cols, col
-        let rows = $('[data-id="1"] tbody tr')
+        let theads, cols, col
+        let rows = $('[data-id="34"] tbody tr')
 
         rows.each((index, el) => {
-            // theads = $(el).find('th').text().trim().replace(/[\n\r]+/g, '')
+            theads = $(el).find('td.sub_heading').text().trim().replace(/[\n\r]+/g, '')
             data2 = []
             cols = $(el).find('td').each((colidx, colel) => {
                 col = $(colel).text().replace(/[\n\r]+/g, '')
                 data2.push(col)
             })
-            data1.push({ ...data2 })
+            data1.push({ theads, ...data2 })
         })
         fs.writeFile("oil_prices.json", JSON.stringify(data1, null, 2), (err) => {
             if (err) {
@@ -37,29 +37,38 @@ export const scrappingOilPrices = async (req, res) => {
 
         fs.readFile("oil_prices.json", 'utf-8', (err, data) => {
             if (data) {
-                let oilPricee;
                 const data11 = JSON.parse(data)
-                data11.map(async (val) => {
-                    // console.log(val["1"], val["2"])
-                    oilPricee = new current_oil_prices({
-                        t_name: val["1"],
-                        last_oil_price: val["2"]
+                let datam = []
+                data11.filter((val, index) => {
+                    if (val.theads === "") {
+                        return
+                    }
+                    else {
+                        datam.push(val)
+                    }
+                })
+                // data11
+                let countries
+                datam.map(async (val) => {
+                    // console.log("data before", val[1])
+                    countries = new countries_name({
+                        country_name: val.theads
                     })
-                    await oilPricee.save()
-                });
+                    await countries.save()
+                    console.log("countries saved", countries)
+                })
                 return res.send({
-                    code: res.sendStatus,
+                    code: res.statusCode,
                     msg: 'Data has been read successfully',
-                    data: { oilPricee },
+                    data: { countries },
                 })
             }
             else {
                 return res.send({
-                    code: res.sendStatus,
-                    msg: `error at reading oil prices data: ${err}`,
+                    code: res.statusCode,
+                    msg: `error at country: ${err}`,
                     data: {}
                 })
-                // console.log("error at reading oil prices data: ", err)
             }
         })
 

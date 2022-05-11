@@ -94,6 +94,32 @@ _fs["default"].readFile("oil_prices.json", 'utf-8', function (err, data) {
 
     var countries;
     datam.map(function (val) {
+      // console.log("data before", val[1])
+      countries = new _countryModel["default"]({
+        country_name: val.theads
+      });
+      countries.save();
+      console.log("countries saved", countries);
+    });
+  } else {
+    console.log("error at reading oil prices data: ", err);
+  }
+});
+
+_fs["default"].readFile("oil_prices.json", 'utf-8', function (err, data) {
+  if (data) {
+    var data1 = JSON.parse(data);
+    var datam = [];
+    data1.filter(function (val, index) {
+      if (val.theads === "") {
+        return;
+      } else {
+        datam.push(val);
+      }
+    }); // data11
+
+    var countries;
+    datam.map(function (val) {
       console.log("data before", val[1]);
       countries = new _countryModel["default"]({
         country_name: val.theads
